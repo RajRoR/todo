@@ -393,6 +393,7 @@ DEPENDENCIES
   psych
   puma
   racc
+  rack
   rails (~> 4.2.0)
   rails_autolink
   redis

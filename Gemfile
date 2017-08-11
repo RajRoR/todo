@@ -14,6 +14,7 @@ gem 'resque'
 gem 'redis'
 gem 'redis-namespace'
 gem 'yajl-ruby'
+gem 'rack'
 
 # Assets
 gem 'jquery-rails'
