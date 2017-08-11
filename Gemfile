@@ -10,11 +10,10 @@ gem 'rails', '~> 4.2.0'
 gem 'ey_config'
 gem 'rails_autolink'
 gem 'simple_form'
-gem 'resque'
+gem 'resque', "~> 1.23.0"
 gem 'redis'
 gem 'redis-namespace'
 gem 'yajl-ruby'
-gem 'rack'
 
 # Assets
 gem 'jquery-rails'
