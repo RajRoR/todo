@@ -11,6 +11,9 @@ gem 'ey_config'
 gem 'rails_autolink'
 gem 'simple_form'
 gem 'resque'
+gem 'redis'
+gem 'redis-namespace'
+gem 'yajl-ruby'
 
 # Assets
 gem 'jquery-rails'
