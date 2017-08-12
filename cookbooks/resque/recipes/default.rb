@@ -4,10 +4,10 @@
 #
 if ['solo', 'util'].include?(node[:instance_role])
   
-  execute "install resque gem" do
-    command "gem install resque redis redis-namespace yajl-ruby -r"
-    not_if "gem list | grep resque"
-  end
+  # execute "install resque gem" do
+  #   command "gem install resque redis redis-namespace yajl-ruby -r"
+  #   not_if "gem list | grep resque"
+  # end
 
   case node[:ec2][:instance_type]
   when 't2.micro' then worker_count = 2
