@@ -1,6 +1,6 @@
 # Docker Redis
 
-This recipe runs a redis container on a utility instance and listens on port 11211 of that instance. It also generates a config file redis_docker.yml on your application instances that your app can use to connect to redis.
+This recipe runs a redis container on a utility instance and listens on port 6379 of that instance. It also generates a config file redis_docker.yml on your application instances that your app can use to connect to redis.
 
 ## How to use this recipe
 
@@ -25,7 +25,7 @@ This recipe runs a redis container on a utility instance and listens on port 112
       {
           "production" => {
               "servers" => [
-                  [0] "ip-10-109-190-114.ec2.internal:11211"
+                  [0] "ip-10-109-190-114.ec2.internal:6379"
               ]
           }
       }
