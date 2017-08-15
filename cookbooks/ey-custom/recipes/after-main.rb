@@ -1,2 +1,8 @@
-include_recipe 'custom-redis'
-include_recipe 'custom-resque'
+include_recipe "chef_gem_fix"
+include_recipe "docker_custom"
+
+include_recipe "docker_redis"
+#include_recipe "docker_memcached"
+#include_recipe "docker_youtrack"
+#include_recipe "docker_rails"
+#include_recipe "docker_laravel"
