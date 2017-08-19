@@ -1,4 +1,5 @@
 environments:
   production:
     migrate: true
+    migration_command: rake db:migrate
     branch: master
