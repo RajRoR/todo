@@ -1,4 +1,4 @@
 environments:
   production:
-    migrate: false
+    migrate: true
     branch: master
